@@ -71,19 +71,19 @@
 	margin-bottom: 5%;
 }
 @media screen and (max-width: 1200px){
-	.main{
-		margin-left: 0;
-		width: 59%;
-	}
-	.row1 input,.row2 input,.row3 input,.row4 input,.row5 input{
-		color: white;
-	    width: 37px;
-    	height: 45px;
-	
-	justify-content: space-evenly;
-	/*border-radius: 10px;*/
-	background-color: #154360;
-	}
+	.main {
+    margin-top: 13%;
+    margin-left: 6%;
+    width: 86%;
+}
+	.row1 input, .row2 input, .row3 input, .row4 input, .row5 input {
+    color: white;
+    width: 43px;
+    height: 45px;
+    justify-content: space-evenly;
+    /* border-radius: 10px; */
+    background-color: #154360;
+}
 	*{
 	font-size: 22px;
 	
@@ -102,10 +102,10 @@
 }
 .row1, .row2, .row3, .row4, .row5 {
     display: flex;
-    padding-left: 3%;
-    padding-top: 4%;
-    padding-bottom: 2%;
-    padding-right: 2%;
+    padding-left: 7%;
+    padding-top: 7%;
+    padding-bottom: 1%;
+    padding-right: -2%;
 }
 .eq input{
 	background-color: darkred;
