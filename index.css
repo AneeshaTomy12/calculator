@@ -72,7 +72,7 @@
 }
 @media screen and (max-width: 1200px){
 	.main {
-    margin-top: 13%;
+    margin-top: 16%;
     margin-left: 6%;
     width: 86%;
 }
@@ -103,8 +103,8 @@
 .row1, .row2, .row3, .row4, .row5 {
     display: flex;
     padding-left: 7%;
-    padding-top: 7%;
-    padding-bottom: 1%;
+    padding-top: 12%;
+    padding-bottom: 3%;
     padding-right: -2%;
 }
 .eq input{
