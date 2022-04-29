@@ -1,0 +1,132 @@
+*{
+	font-size: 110%;
+	
+}
+.main{
+	border: 1px solid black;
+	border-radius: 5%;
+	width: 40%;
+	height: 130%;
+	background-color:#212F3D;
+	margin-left: 30%;
+	margin-top: 5%;
+}
+.row1,.row2,.row3,.row4,.row5{
+	display: flex;
+	padding-left: 10%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+
+	/*width: 5vh;
+	height: 10vh;*/
+
+}
+.row1 div,.row2 div,.row3 div,.row4 div,.row5 div{
+	width: 35%;
+	}
+.calc{
+	background-color:#212F3D;
+	width: 100%;
+	height: 130%;
+	border-radius: 5%;	
+	margin-left: 0.5%;
+}
+.row1 input,.row2 input,.row3 input,.row4 input,.row5 input{
+	color: white;
+	width: 80px;
+	height: 70px;
+	padding-left: 5%;
+	justify-content: space-evenly;
+	border-radius: 10px;
+	background-color: #154360;
+	}
+	.display input{
+		margin-top: 5%;
+		padding-top: 5%;
+		margin-left: 2%;
+		width: 96%;
+		height: 30%;
+		border-radius: 5%;
+	}
+.eq input{
+	background-color: darkred;
+
+}
+.colr input{
+	background-color: #2980B9;
+}
+.colr2 input{
+	background-color: #17A589;
+}
+
+.sub{
+	background-color: #2E4053 ;
+	border: 1px solid #2E4053;
+	border-radius: 5%;
+	padding-right: 1%;
+	margin-left: 10%;
+	width:80%;
+	height:70%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+@media screen and (max-width: 1200px){
+	.main{
+		margin-left: 0;
+		width: 59%;
+	}
+	.row1 input,.row2 input,.row3 input,.row4 input,.row5 input{
+		color: white;
+	    width: 37px;
+    	height: 45px;
+	
+	justify-content: space-evenly;
+	/*border-radius: 10px;*/
+	background-color: #154360;
+	}
+	*{
+	font-size: 22px;
+	
+}
+.row1 div, .row2 div, .row3 div, .row4 div, .row5 div {
+    width: 30%;
+}
+
+
+.calc {
+    background-color: #212F3D;
+    width: 97%;
+    height: 126%;
+    border-radius: 5%;
+    margin-left: 2.5%;
+}
+.row1, .row2, .row3, .row4, .row5 {
+    display: flex;
+    padding-left: 3%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+}
+.eq input{
+	background-color: darkred;
+
+}
+.colr input{
+	background-color: #2980B9;
+}
+.colr2 input{
+	background-color: #17A589;
+}
+.sub{
+	background-color: #2E4053 ;
+	border: 1px solid #2E4053;
+	border-radius: 5%;
+	padding-right: 1%;
+	margin-left: 7%;
+	width:80%;
+	height:70%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+}
